@@ -1,0 +1,194 @@
+ @font-face {
+    font-family: Gotham; /* Имя шрифта */
+    src: url(fonts/Gotham.ttf); /* Путь к файлу со шрифтом */
+   }
+.navbar-brand{
+	margin-top: 5px;
+}
+ nav .navbar-nav li{
+	padding-top: 15px;
+}
+nav .navbar-nav li a{
+	font-size: 14px;
+  font-family: "Gotham";
+  color: rgb( 150, 166, 167 );
+  text-transform: uppercase;
+  line-height: 1.714
+}
+
+.ico-wrap a{
+	color: #fff;
+}
+.search{
+	font-size: 17px;
+	padding: 30px 30px;
+	display: inline-block;
+	height: 75px;
+	background-color: #e2dee0;
+	
+}
+.text{
+	font-family: Gotham;
+	padding-left: 15px;
+	text-transform: uppercase; 
+}
+.login{
+	font-size: 17px;
+	padding: 30px 30px;
+	background:  #e94e38;
+	height: 75px;
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+}
+/*search*/
+.search-block{
+	padding: 57px 0 40px 0;
+	background-image: url(img/search-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+  font-size: 30px;
+  font-family: "Gotham";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.6;
+  text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 1 );
+  text-align: center;
+}
+header form{
+	text-align: center;
+}
+header input{
+	margin: 0 auto;
+	padding: 20px 20px;
+	border-radius: 30px;
+	color: #fff;
+	border: 1px solid rgba(255,255,255,0.32); 
+	background-color: rgba(255,255,255,0.22);
+}
+header form .col-sm-6{
+	float: none;
+}
+header option{
+	color: #000;
+}
+header select,input{
+	width: 225px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding: 20px 20px;
+	border-radius: 30px;
+	color: #fff;
+	border: 1px solid rgba(255,255,255,0.32); 
+	background-color: rgba(255,255,255,0.22);
+}
+header input[type="button"]{
+	font-family: Gotham;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	width: 140px;
+	color: #fff;
+	border: 2px;
+	background-color: #e94e38;
+	border-bottom: 2px solid #c1412e;
+	transition: 0.1s;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}
+header input[type="button"]:active{
+	background-color: #c1412e;
+}
+/*content*/
+.navbar-default{
+	padding: 13px 0;
+} 
+.navbar-default .navbar-nav>li>a{
+	font-family: Gotham;
+	font-size: 12px;
+	color: #9eadae;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav>.filter{
+	padding-top: 35px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #e94e38;
+}
+#secondary-menu{
+	padding: 13px 20px;
+	color: #e94e38;
+	border: 1px solid #cad2d3;
+	border-radius: 30px;
+}
+.dropdown-menu{
+	background: transparent;
+    margin-top: 0;
+    border: none;
+	background-color: transparent;
+	box-shadow: none;
+}
+.dropdown-menu li{
+	margin-top: 2px;
+	padding: 10px 10px;
+	font-weight: bold;
+	background: #fff;
+	border: 1px solid #cad2d3;
+	border-radius: 20px;
+}
+.dropdown-menu li a{
+	text-transform: uppercase;
+	color:#e94e38 }
+.show{
+	background-color: #fff;
+	border: 1px solid #cad2d3;
+}
+.hide-map{
+	color: #fff;
+	border: none;
+	background-color: #1baf5d;
+}
+.recomend li a:hover{
+	text-decoration: none;
+	color: #e94e38;
+}
+.content select{
+	margin-top: 30px;
+	font-family: Gotham;
+	font-size: 14px;
+	color: #e94e38;
+	padding: 15px 20px;
+	border-radius: 30px;
+	border: 1px solid #cad2d3;
+}
+#btn-map{
+	margin-top: 13px;
+	font-family: Gotham;
+	font-size: 17px;
+	text-align: center;
+	padding: 15px 20px;
+	border-radius: 30px;
+	border: 1px solid #cad2d3;
+}
+.img-wrap img{
+
+}
+.blocks{
+	background-color: #f3f1f2;
+}
+.block-img{
+	
+	border-bottom: 2px solid #1baf5d;
+	position: relative;
+}
+.img-ico{
+	border-radius: 50%;
+	border: 2px solid #fff;
+	position: absolute;
+	right: 100px;
+	bottom:80px;
+}
